@@ -170,7 +170,7 @@ function updateElements() {
   for (const intersect of intersects) {
     gsap.to(intersect.object.scale, { x: 1, y: 1 });
     gsap.to(intersect.object.rotation, { x: 0 });
-    gsap.to(intersect.object.rotation, { z: 5 });
+    gsap.to(intersect.object.rotation, { z: 0.5 });
     gsap.to(intersect.object.position, { y: -0.5 });
   }
 
